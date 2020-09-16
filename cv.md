@@ -52,3 +52,5 @@ _Physic-engineer_
 #### Courses:
 
 - QA Academy (Basic course 2017)
+
+## English level is Pre-intermediate
