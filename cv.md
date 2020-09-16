@@ -21,3 +21,20 @@ QA / QA Automation in JS, now try as Web developer
 &#9724;&#9724;&#9724;&#9724;&#9723; Vusial Studio Code  
 &#9724;&#9724;&#9724;&#9723;&#9723; TypeScript  
 &#9724;&#9724;&#9724;&#9723;&#9723; Platwright / webdriverIO
+
+## Code samples
+
+**TypeScript:**
+
+```typescript
+async function checkElements(selectors: {[selectorName:string]:string}): Promise<string[]> {
+    const fails: string[] = [];
+    for(let [selectorName, selector] of Object.entries(selectors)) {
+      await waits
+        .waitForAttached(selector)
+        .then()
+        .catch(() => fails.push(`${selectorName} = ${selector}`));
+    }
+    return fails;
+  }
+```
