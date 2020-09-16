@@ -38,3 +38,17 @@ async function checkElements(selectors: {[selectorName:string]:string}): Promise
     return fails;
   }
 ```
+
+## Experience
+
+**SpurIT e-commerce solution**
+_since 2018 as QA/QA Automation engineer_
+
+## Education
+
+**Belarusian State University of Radiophysics and Computer Science (2011-2016)**
+_Physic-engineer_
+
+#### Courses:
+
+- QA Academy (Basic course 2017)
