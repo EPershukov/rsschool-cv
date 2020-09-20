@@ -60,3 +60,7 @@ ul > li > * {
   object-fit: cover;
   object-position: 0 0;
 }
+
+.section {
+  margin-left: 40px;
+}
