@@ -15,6 +15,12 @@
   grid-template-columns: 4fr 6fr;
 }
 
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: 700;
+  font-style: normal;
+}
+
 .info {
   grid-area: info;
   background-color: black;
@@ -23,6 +29,12 @@
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
+}
+
+ul > li > * {
+  color: var(--text-color-info);
+  font-weight: 400;
+  font-style: normal;
 }
 
 .additional-info {
