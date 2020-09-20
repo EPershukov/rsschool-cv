@@ -32,3 +32,19 @@
   margin-top: 110px;
   color: var(--text-color-addInfo);
 }
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  margin: 10px 10px 10px 25px;
+  border-style: solid;
+}
+
+.avatar > img {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
