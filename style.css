@@ -6,6 +6,11 @@
   --text-color-addInfo: #385f71;
 }
 
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: 700;
+  font-style: normal;
+}
 .cv-main {
   margin: 0 auto;
   display: grid;
@@ -15,11 +20,7 @@
   grid-template-columns: 4fr 6fr;
 }
 
-h1, h2, h3 {
-  color: var(--title-color);
-  font-weight: 700;
-  font-style: normal;
-}
+/* LEFT COLUMN */
 
 .info {
   grid-area: info;
@@ -29,20 +30,6 @@ h1, h2, h3 {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-}
-
-ul > li > * {
-  color: var(--text-color-info);
-  font-weight: 400;
-  font-style: normal;
-}
-
-.additional-info {
-  grid-area: additional-info;
-  background-color: white;
-  margin-left: 20px;
-  margin-top: 110px;
-  color: var(--text-color-addInfo);
 }
 
 .avatar {
@@ -61,8 +48,24 @@ ul > li > * {
   object-position: 0 0;
 }
 
+ul > li > * {
+  color: var(--text-color-info);
+  font-weight: 400;
+  font-style: normal;
+}
+
 .section {
   margin-left: 40px;
+}
+
+/* RIGHT COLUMN */
+
+.additional-info {
+  grid-area: additional-info;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 110px;
+  color: var(--text-color-addInfo);
 }
 
 .work-1 {
